@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4b93bf;
+  color: #ffffff;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  width: 30vw;
+}
+
+nav {
+  width: 44vw;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  height: 15vh;
+}
+
+li {
+  font-size: 20px;
+}
+
+.primeiraSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e4eef1;
+}
+
+.primeiraSessao p {
+  width: 30vw;
+  font-size: 18px;
+  color: #0f468c;
+}
+
+.segundaSessao {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #4b93bf;
+}
+
+h1 {
+  width: 38vw;
+  font-size: 26px;
+  font-weight: 300;
+  color: #ffff;
+  word-spacing: 6px;
+}
+
+.segundaSessao img {
+  position: relative;
+  left: 45px;
+}
+
+.terceiraSessao {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #4b93bf;
+}
+
+.redesSociais {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nomes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+footer p {
+  text-align: center;
+  color: #ffffff;
+}
